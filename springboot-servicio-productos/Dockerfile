@@ -8,7 +8,7 @@ VOLUME /tmp
 # Commented because the port here is random
 # EXPOSE  8761
 
-ADD ./target/springboot-servicio-eureka-server-0.0.1-SNAPSHOT.jar eureka-server.jar
+ADD ./target/springboot-servicio-productos-0.0.1-SNAPSHOT.jar servicio-productos.jar
 
-ENTRYPOINT ["java", "-jar", "eureka-server.jar"]
+ENTRYPOINT ["java", "-jar", "servicio-productos.jar"]
 
